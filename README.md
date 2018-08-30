@@ -1,15 +1,18 @@
 # IATI-JSON
 
-IATI is an XML standard humanitarian organizations and donors use to share information on aid activities, transactions and results and make the information openly accessible to machine applications.
+[IATI](https://iatistandard.org/en/) is an XML standard humanitarian organizations and donors use to share information about aid activities, transactions and results and make the information openly accessible to machine applications.
 
-For many applications, users prefer to work with IATI data formatted in JSON instead of XML. And they adapt their formatting in slightly different ways to suit their needs. A certain degree of formatting harmonization could serve the humanitarian community and make it easier for developers to build enterprise grade IATI-data-driven applications.
+For many uses, it's preferable to work with IATI data in **JSON** instead of **XML** and formatted in slightly different ways to suit specific needs. A certain degree of formatting harmonization could serve the humanitarian community and make it easier for developers to build IATI-data-driven applications.
 
 ## Project
 
-This micro-project will examine IATI's XML structure and model ways of ideally formatting IATI XML into JSON for retrieval and processing by emerging artificial intelligent applications.
+**IATI-JSON** is a microproject launched to examine IATI's XML structure and model ways of formatting IATI XML into JSON for retrieval and processing by emerging artificial intelligent applications.
 
-## Outputs
+## Milestones
 
-The microproject will generate IATI JSON formatting models for discussion and testing.
+Using GitHub [Milestones](https://github.com/Humanitarian-AI/IATI-JSON/milestones) as goals, the microproject will:
 
-Insight gained will also be of use to other microprojects like [IATI-Neo4j]() which looks at how IATI data can be best formatted for storage in a graph database and [HXS-API]() which looks at how IATI data can be reliably served to enterprise grade applications.
+* Generate a host of different formatting models for discussion and testing
+* Attempt to identify a model best suited for AI applications
+
+Insight gained will be of use to other microprojects like [IATI-Neo4j](https://github.com/Humanitarian-AI/IATI-Neo4j) which looks at how IATI data can be formatted for storage in a graph database and [HXS-API](https://github.com/Humanitarian-AI/HXS-API) which will try to setup an enterprise grade IATI API suitable for powering prototype AI applications.
